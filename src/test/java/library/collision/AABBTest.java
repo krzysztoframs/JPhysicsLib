@@ -1,15 +1,12 @@
-package testbed.junittests;
+package library.collision;
 
 import library.collision.AABB;
 import library.dynamics.Body;
 import library.geometry.Circle;
 import library.math.Vectors2D;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static junit.framework.TestCase.assertEquals;
-import static junit.framework.TestCase.assertFalse;
-import static junit.framework.TestCase.assertTrue;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class AABBTest {
     @Test

@@ -1,10 +1,9 @@
-package testbed.junittests;
+package library.math;
 
-import library.math.Vectors2D;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static junit.framework.TestCase.assertEquals;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
+
 
 public class Vectors2DTest {
     @Test
