@@ -1,6 +1,5 @@
 package library.collision;
 
-import library.collision.AABB;
 import library.dynamics.Body;
 import library.geometry.Circle;
 import library.math.Vectors2D;
